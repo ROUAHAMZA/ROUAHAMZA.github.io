@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <ul>
+                <li><a href="index.html">Acceuil</a></li>
+                <li><a href="carriere.html">Carriére</a></li>
+                <li><a href="maitrise.html">Maitrise</a></li>
+                <li><a href="vieassociative.html">Vie Associative</a></li>
+                <li><a href="projets.html">Projets</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="quiz-container">
+        <h1>Quiz: About Me</h1>
+        <div id="quiz-content">
+            <div class="question">
+                <p><strong>Question 1:</strong> Quel est mon langage de programmation préféré ?</p>
+                <input type="radio" name="question0" value="Python" id="q0-option0">
+                <label for="q0-option0">Python</label><br>
+                <input type="radio" name="question0" value="JavaScript" id="q0-option1">
+                <label for="q0-option1">JavaScript</label><br>
+                <input type="radio" name="question0" value="C++" id="q0-option2">
+                <label for="q0-option2">C++</label><br>
+                <input type="radio" name="question0" value="Java" id="q0-option3">
+                <label for="q0-option3">Java</label><br>
+            </div>
+
+            <div class="question">
+                <p><strong>Question 2:</strong> Quelle technologie est utilisée pour mes projets IoT ?</p>
+                <input type="radio" name="question1" value="Arduino" id="q1-option0">
+                <label for="q1-option0">Arduino</label><br>
+                <input type="radio" name="question1" value="Raspberry Pi" id="q1-option1">
+                <label for="q1-option1">Raspberry Pi</label><br>
+                <input type="radio" name="question1" value="ESP32" id="q1-option2">
+                <label for="q1-option2">ESP32</label><br>
+                <input type="radio" name="question1" value="BeagleBone" id="q1-option3">
+                <label for="q1-option3">BeagleBone</label><br>
+            </div>
+
+            <div class="question">
+                <p><strong>Question 3:</strong> Dans quel domaine ai-je étudié ?</p>
+                <input type="radio" name="question2" value="Génie Informatique" id="q2-option0">
+                <label for="q2-option0">Génie Informatique</label><br>
+                <input type="radio" name="question2" value="Marketing" id="q2-option1">
+                <label for="q2-option1">Marketing</label><br>
+                <input type="radio" name="question2" value="Médecine" id="q2-option2">
+                <label for="q2-option2">Médecine</label><br>
+                <input type="radio" name="question2" value="Architecture" id="q2-option3">
+                <label for="q2-option3">Architecture</label><br>
+            </div>
+        </div>
+        <button id="submit-quiz" style="display:none;">Soumettre les réponses</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
